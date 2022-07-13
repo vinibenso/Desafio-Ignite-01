@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 8px;
+  background: #0D0D0D;
+  justify-content: center;
+
+}
+
+.container input{
+  width: 40rem;
+  gap: 8px;
+  height: 54px;
+  background: #262626;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #808080;
+  padding-left: 16px;
+  margin-bottom: -36px;
+ 
+}
+
+.container button{
+ background: #1E6F9F;
+ color: #fff;
+ width: 90px;
+ height: 52px;
+ border: none;
+ border-radius: 8px;
+ cursor: pointer;
+ font-size: 16px;
+ margin-bottom: -36px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}

@@ -1,0 +1,55 @@
+.statusTasks {
+margin-top: 91px; 
+display:flex;  
+justify-content: space-between;
+margin-left: 592px;
+width: 46rem;
+
+}
+
+.createdTasks {
+  color: #4EA8DE;
+ 
+}
+.finishedTasks {
+  color: #8284FA;
+  
+}
+
+
+.tasksBox {
+  background-color: #333333;
+  border-radius: 8px;
+  width: 46rem;
+  height: 52px;
+  color: #F2F2F2F2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  margin-top: 15px;
+
+}
+.tasksBox button {
+  background: transparent;
+  border: 0;
+  color: #808080;
+  cursor: pointer;
+  line-height: 0; 
+}
+
+.tasksBox button:hover {
+  color: #FF0000
+}
+.taskList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #454545;
+  font-size: 14px;
+  color: #F2F2F2F2;
+
+ 
+ 
+}
+
